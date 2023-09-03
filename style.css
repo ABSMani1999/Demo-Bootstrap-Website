@@ -1,0 +1,287 @@
+*{
+    margin:0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+
+body{
+    background-color: #212529 !important;
+}
+
+.collapse,.media{
+    font-size: 0.8rem;
+}
+
+.banner{
+    background:linear-gradient(#272727b0,#272727b0),url(./img/banner-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 10rem;
+}
+
+.banner-content{
+    padding: 18rem 0;
+}
+
+.bi-spotify,.bi-apple,.bi-play-circle,.bi-google{
+    font-style: normal;
+}
+
+.spotify:hover{
+    cursor: pointer;
+    background-color: #29bd55;
+    transition: ease 500ms;
+}
+
+.iTunes:hover{
+    cursor: pointer;
+    background-color: #bd29b1;
+    transition: ease 500ms;
+}
+
+.amazon:hover{
+    cursor: pointer;
+    background-color: #e49502;
+    transition: ease 500ms;
+}
+
+.google:hover{
+    cursor: pointer;
+    background-color: red;
+    transition: ease 500ms;
+}
+
+.showContact{
+    display:block !important;
+}
+
+.container{
+    padding: 1rem;
+}
+
+@media(min-width:320px){
+    .nav-item:hover{
+        background-color: red;
+        border-radius: 5px;
+        padding: 0.5rem;
+        transition: all 500ms;
+    }
+
+    .TourSection::before{
+        content: "";
+        animation-delay: 100ms;
+        position: absolute;
+        top: -8%;
+        left: 50%;
+        height: 4rem;
+        border: 1px solid #909294;
+    }
+    
+    .AboutSection::before{
+        content: "";
+        animation-delay: 100ms;
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        height: 4rem;
+        border: 1px solid #909294;
+    }
+
+    .NewsSection::before{
+        content: "";
+        animation-delay: 100ms;
+        position: absolute;
+        top: -9%;
+        left: 50%;
+        height: 4rem;
+        border: 1px solid #909294;
+    }
+
+    .contact::before{
+        content: "";
+        animation-delay: 100ms;
+        position: absolute;
+        top: -14%;
+        left: 50%;
+        height: 4rem;
+        border: 1px solid #909294;
+    }
+
+    .aboutPersonHover:hover .aboutPerson{
+        background-color: #4140408a;
+        cursor: pointer;
+        width: 92%;
+        margin: auto;
+        height: 100%;
+        top:0%;
+        left:4%;
+        transition: all 500ms;
+    }
+
+    .aboutPersonHover:hover .aboutPersonDetail{
+        opacity: 1 !important;
+    }
+
+    .aboutPerson{
+        position:absolute;
+        top: 60%;
+        left: 0;
+    }
+
+    .tourSheduleBtn{
+        margin: 1rem 0;
+    }
+
+    .tourSheduleBtn button{
+        padding: 0.6rem !important;
+    }
+
+    .footlogo img{
+        width: 8rem !important;
+    }
+    .conatactInput input{
+        width: 100% !important;
+    }
+}
+
+@media(min-width:768px){
+    .AboutSection::before{
+        content: "";
+        animation-delay: 100ms;
+        position: absolute;
+        top: -15%;
+        left: 50%;
+        height: 4rem;
+        border: 1px solid #909294;
+    }
+
+    .aboutPersonHover{
+        width: 50% !important;
+    }
+
+    .footlogo img {
+        width: 6rem !important;
+    }
+}
+
+@media(min-width:1000px){
+    .nav-item:hover{
+        background-color: red;
+        border-radius: 5px;
+        padding: 0;
+        transition: all 500ms;
+    }
+    .TourSection::before{
+        content: "";
+        animation-delay: 100ms;
+        position: absolute;
+        top: -12%;
+        left: 50%;
+        height: 4rem;
+        border: 1px solid #909294;
+    }
+
+    .AboutSection::before{
+        content: "";
+        animation-delay: 100ms;
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        height: 4rem;
+        border: 1px solid #909294;
+    }
+
+    .NewsSection::before{
+        content: "";
+        animation-delay: 100ms;
+        position: absolute;
+        top: -19%;
+        left: 50%;
+        height: 4rem;
+        border: 1px solid #909294;
+    }
+
+    .contact::before{
+        content: "";
+        animation-delay: 100ms;
+        position: absolute;
+        top: -19%;
+        left: 50%;
+        height: 4rem;
+        border: 1px solid #909294;
+    }
+
+    .aboutPersonHover:hover .aboutPerson{
+        background-color: #414040d2;
+        cursor: pointer;
+        width: 92%;
+        margin: auto;
+        height: 100%;
+        top: 0;
+        left:4%;
+        transition: all 500ms;
+    }
+
+    .aboutPersonHover{
+        width: 25% !important;
+    }
+
+    .aboutPersonHover:hover .aboutPersonDetail{
+        opacity: 1 !important;
+    }
+
+    .aboutPerson{
+        position:absolute;
+        top: 60%;
+        left: 0;
+    }
+    .newsList{
+        width: 33.33%;
+    }
+
+    
+}
+
+.tourShedule:hover{
+    cursor: pointer;
+    color: #000 !important;
+    background-color: #fff !important;
+    transition: all 500ms;
+    padding:0.1rem 0.2rem; 
+}
+
+.about-banner{
+    background: linear-gradient(#2f2f2fc7,#2f2f2fc7),url(./img/about-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    padding: 15rem 0;
+}
+
+.about-banner>i{
+    cursor: pointer;
+    font-size: 5rem;
+}
+
+.newsList:hover{
+    cursor: pointer;
+    transition: all 500ms;    
+    transform:scaleY(1.1);
+}
+
+.singingDate h5{
+    background-color: red;
+    font-size: 1rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.footNav h6 a{
+    text-decoration: none;
+    color: #fff;
+}
